@@ -123,26 +123,6 @@ Spotify-Backend/
 3. Commit changes: `git commit -m 'Add feature'`.
 4. Push to branch: `git push origin feature-name`.
 5. Open a pull request.
-
-
-## Project Structure
-
-    ├── controllers/      # Route handlers
-    │   ├── auth.controllers.js
-    │   └── music.controllers.js
-    ├── middlewares/      # Authentication middleware
-    │   └── auth.middleware.js
-    ├── models/           # Mongoose models
-    │   ├── user.model.js
-    │   ├── music.model.js
-    │   └── albums.model.js
-    ├── routes/           # API routes
-    │   ├── auth.routes.js
-    │   └── music.routes.js
-    ├── services/         # External services
-    │   └── storage.services.js
-    └── db/               # Database connection
-        └── db.js
 ```
 ## Future Enhancements
 
